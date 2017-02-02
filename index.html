@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TwitchTV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Sass/stylesheet.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="jssheet.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="main">
+            <div class="btn-group btn-group-lg" role="group" aria-label="...">
+              <button type="button" class="btn btn-default active" id="left">All</button>
+              <button type="button" class="btn btn-default" id="middle">Online</button>
+              <button type="button" class="btn btn-default" id="right">Offline</button>
+            </div>
+            <div class="searchBar input-group">
+              <span class="input-group-btn">
+                <button class="btn" type="button" id="invisibleButton"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+              <input type="text" class="form-control" id="searchThis" placeholder="Filter a channel...">
+            </div>
+            <div class="twitchChannels"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

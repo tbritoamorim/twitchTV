@@ -1,0 +1,118 @@
+body {
+  background-color: #F46036; }
+
+.main {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center; }
+
+.btn-group {
+  background-color: #2E294E; }
+
+.btn-group-lg > .btn {
+  width: 200px;
+  padding: 20px 20px; }
+
+.btn-default {
+  border: none;
+  background-color: #2E294E;
+  color: white; }
+  .btn-default:hover {
+    background-color: #f5f8e6;
+    border-radius: 0; }
+  .btn-default:focus {
+    background-color: #C5D86D;
+    border-radius: 0;
+    outline: none; }
+
+.btn-default.active {
+  background-color: #C5D86D;
+  border-radius: 0; }
+  .btn-default.active:active {
+    background-color: #C5D86D;
+    border-radius: 0; }
+  .btn-default.active:hover {
+    background-color: #f5f8e6;
+    border-radius: 0; }
+  .btn-default.active:focus {
+    background-color: #C5D86D;
+    border-radius: 0;
+    outline: none; }
+
+#middle {
+  border-left: 3px solid white; }
+
+#right {
+  border-left: 3px solid white; }
+
+.glyphicon {
+  color: gray; }
+
+.searchBar {
+  width: 597px; }
+
+#invisibleButton {
+  background-color: white;
+  border-radius: 0; }
+
+.form-control {
+  border-radius: 0;
+  margin-left: 1px; }
+
+.twitchChannels {
+  width: 598px;
+  color: black;
+  border: 3px solid white;
+  margin-left: 1px;
+  background-color: white; }
+
+.channel {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cccccc; }
+  .channel:last-child {
+    border: none;
+    padding-bottom: 0; }
+  .channel a {
+    color: black;
+    text-decoration: none; }
+
+.profilePic {
+  margin-left: 20px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; }
+
+.channelName {
+  display: inline;
+  margin-left: 15px; }
+  .channelName:first-child {
+    margin-top: 40px; }
+
+.status-off {
+  font-size: 20px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 15px;
+  color: #E71D36;
+  display: inline;
+  text-shadow: 1px 1px 1px black; }
+
+.status-on {
+  font-size: 20px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 15px;
+  color: #1B998B;
+  display: inline;
+  text-shadow: 1px 1px 1px black; }
+
+.status {
+  margin-left: 84px;
+  font-size: 10px;
+  color: gray; }
+
+/*# sourceMappingURL=stylesheet.css.map */
