@@ -24,11 +24,11 @@ $(document).ready(function() {
     let newChannel;
     $.ajax({
       url: apiUrl + channels[i],
-	    type: 'GET',
-	    contentType: 'text/plain',
-	    withCredentials: false,
-	    crossDomain: true,
-	    dataType: 'jsonp',
+      type: 'GET',
+      contentType: 'text/plain',
+      withCredentials: false,
+      crossDomain: true,
+      dataType: 'jsonp',
       success: function(data) {
         apiData = data;
         apiLink = data._links.self;
